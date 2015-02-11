@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-PrototypeIosObjC-PebbleKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PrototypeIosObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PrototypeIosObjCTests-OCMock.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PrototypeIosObjCTests-PebbleKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PrototypeIosObjCTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1B6ED4EC40B8CA90C30F4D63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C92FAA48300BD02F899ACFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46ED8F6FE9C2CFBBD1DFAB1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85485A6C8A060C3090F1B49E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF27317FDFD77F1A58697A9F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

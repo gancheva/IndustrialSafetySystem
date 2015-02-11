@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_text_view_height"
+        android:text="@string/initial_text"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:background="@color/text_view_background_color"
+        android:textIsSelectable="false"
+        android:textSize = "@dimen/main_text_view_text_size"
+        android:gravity="center" />
+
+    <RelativeLayout
+        android:id="@+id/firstButtonsLine"
+        android:layout_width="@dimen/buttons_line_width"
+        android:layout_height="@dimen/button_label_height"
+        android:layout_below="@+id/mainTextView"
+        android:layout_marginTop="@dimen/distance_between_elements"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentStart="true">
+            <Button
+                android:id="@+id/locate"
+                android:background="@drawable/location"
+                android:layout_width="@dimen/buttons_img_size"
+                android:layout_height="@dimen/buttons_img_size"
+                android:onClick="showCurrentLocation"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_locate"
+                android:textColor="@color/white"
+                android:textSize = "@dimen/labels_size"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_button_label"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+            <Button
+                android:id="@+id/notify"
+                android:background="@drawable/notify"
+                android:layout_width="@dimen/buttons_img_size"
+                android:layout_height="@dimen/buttons_img_size"
+                android:onClick="openNotificationScreen"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_notify"
+                android:textColor="@color/white"
+                android:textSize = "@dimen/labels_size"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_button_label"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+            <Button
+                android:id="@+id/alarm"
+                android:background="@drawable/alarm"
+                android:layout_width="@dimen/buttons_img_size"
+                android:layout_height="@dimen/buttons_img_size"
+                android:onClick="alarmWatch"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_alarm"
+                android:textColor="@color/white"
+                android:textSize = "@dimen/labels_size"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_button_label"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/secondButtonsLine"
+        android:layout_width="@dimen/buttons_line_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstButtonsLine"
+        android:layout_marginTop="@dimen/distance_between_elements"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentStart="true">
+            <Button
+                android:id="@+id/air"
+                android:background="@drawable/air"
+                android:layout_width="@dimen/buttons_img_size"
+                android:layout_height="@dimen/buttons_img_size"
+                android:onClick="showAirPollution"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_air"
+                android:textColor="@color/white"
+                android:textSize = "@dimen/labels_size"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_button_label"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+            <Button
+                android:id="@+id/radiation"
+                android:background="@drawable/radiation"
+                android:layout_width="@dimen/buttons_img_size"
+                android:layout_height="@dimen/buttons_img_size"
+                android:onClick="showRadiation"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_radiation"
+                android:textColor="@color/white"
+                android:textSize = "@dimen/labels_size"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_button_label"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+            <Button
+                android:id="@+id/chemicals"
+                android:background="@drawable/chemicals"
+                android:layout_width="@dimen/buttons_img_size"
+                android:layout_height="@dimen/buttons_img_size"
+                android:onClick="showChemicals"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_chemicals"
+                android:textColor="@color/white"
+                android:textSize = "@dimen/labels_size"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_button_label"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

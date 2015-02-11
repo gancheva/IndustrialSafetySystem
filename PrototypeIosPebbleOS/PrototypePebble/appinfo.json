@@ -1,0 +1,33 @@
+{
+  "uuid": "b2362f93-ad5d-4600-9beb-ce1cd9cccb47",
+  "shortName": "Prototype",
+  "longName": "Prototype",
+  "companyName": "Peperzaken",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+     "media": [
+      {
+        "type": "png",
+        "name": "IMAGE_ALARM_BUTTON",
+        "file": "Alarm.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NOTIFY_BUTTON",
+        "file": "Notify.png" 
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_OK_POPUP",
+        "file": "OK_popup_2.png"
+      }
+    ]
+  }
+}

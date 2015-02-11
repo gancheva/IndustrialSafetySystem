@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Rect -->
+    <dimen name="wear_text_margin">15dp</dimen>
+
+    <!-- Round -->
+
+</resources>
