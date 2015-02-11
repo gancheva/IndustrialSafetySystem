@@ -1,4 +1,4 @@
-package nl.peperzaken.prototypeandroid;
+package nl.prototypeandroid;
 
 import android.app.Activity;
 import android.app.Notification;
@@ -21,10 +21,10 @@ public class WearNotificationManager {
 
     // strings important for the communication flow between wear and phone
     // check the AndroidManifest
-    public static final String EXTRA_VOICE_NOTIFICATION = "nl.peperzaken.prototypeandroid.EXTRA_VOICE_REPLY";
-    public static final String ACTION_NOTIFY = "nl.peperzaken.prototypeandroid.ACTION_NOTIFY";
-    public static final String EXTRA_MESSAGE = "nl.peperzaken.prototypeandroid.EXTRA_MESSAGE";
-    public static final String ACTION_ALARM = "nl.peperzaken.prototypeandroid.ACTION_ALARM";
+    public static final String EXTRA_VOICE_NOTIFICATION = "nl.prototypeandroid.EXTRA_VOICE_REPLY";
+    public static final String ACTION_NOTIFY = "nl.prototypeandroid.ACTION_NOTIFY";
+    public static final String EXTRA_MESSAGE = "nl.prototypeandroid.EXTRA_MESSAGE";
+    public static final String ACTION_ALARM = "nl.prototypeandroid.ACTION_ALARM";
 
     private static WearNotificationManager instance = null;
 

@@ -1,4 +1,4 @@
-package nl.peperzaken.prototypeandroid;
+package nl.prototypeandroid;
 
 
 import android.app.AlertDialog;
